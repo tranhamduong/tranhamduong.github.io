@@ -286,7 +286,8 @@ figure {
         vertical-align: middle;
         min-height: 700px;
         padding: 2.5em;
-        position: relative; }
+        position: relative;
+      }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
@@ -333,10 +334,11 @@ figure {
           font-weight: 400; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #000;
+            background-color:  rgba(255, 255, 255, 0.5);
             border: 1px solid #000;
-            background: transparent !important; }
+            /*background: transparent !important; */}
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
-              background: transparent !important;
+              background: green ;
               border: 1px solid #000 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
@@ -1454,4 +1456,16 @@ body.offcanvas {
     letter-spacing: 1px;
     bordeR: 1px solid #000;
     padding: 2px 10px;
+}
+
+.tab-content {
+  clear: none;
+}
+
+.slider-text-inner >div>h1  {
+  /*background-color: rgba(255, 255, 255, 0.5)  ;*/
+  background-color: rgba(44, 152, 240, 0.8);
+}
+.slider-text-inner >div>h2  {
+  background-color: rgba(44, 152, 240, 0.8);
 }
