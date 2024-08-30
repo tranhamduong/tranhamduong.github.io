@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d01bb312.chunk.css",
-    "main.js": "/static/js/main.3dd7186a.chunk.js",
-    "main.js.map": "/static/js/main.3dd7186a.chunk.js.map",
+    "main.css": "/static/css/main.32ccf9ca.chunk.css",
+    "main.js": "/static/js/main.d0baedf9.chunk.js",
+    "main.js.map": "/static/js/main.d0baedf9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.de6673d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.de6673d8.js.map",
     "static/js/2.46c91863.chunk.js": "/static/js/2.46c91863.chunk.js",
     "static/js/2.46c91863.chunk.js.map": "/static/js/2.46c91863.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6441ac8405419b24cc3b7138553d5570.js": "/precache-manifest.6441ac8405419b24cc3b7138553d5570.js",
+    "precache-manifest.15e23ac0d154f15e5ea997cad3c9f585.js": "/precache-manifest.15e23ac0d154f15e5ea997cad3c9f585.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d01bb312.chunk.css.map": "/static/css/main.d01bb312.chunk.css.map",
+    "static/css/main.32ccf9ca.chunk.css.map": "/static/css/main.32ccf9ca.chunk.css.map",
     "static/js/2.46c91863.chunk.js.LICENSE.txt": "/static/js/2.46c91863.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/bauddhikgeeks-transparent.png": "/static/media/bauddhikgeeks-transparent.074c759b.png",
     "static/media/bauddhikgeeks.png": "/static/media/bauddhikgeeks.f2d490dc.png",
     "static/media/buld.jpg": "/static/media/buld.a1051a22.jpg",
+    "static/media/contact-tranhamduong.jpg": "/static/media/contact-tranhamduong.8fc8c566.jpg",
     "static/media/crest-1.png": "/static/media/crest-1.ec8e1b3c.png",
     "static/media/cwoc.png": "/static/media/cwoc.404ae7bc.png",
     "static/media/efi.png": "/static/media/efi.82473004.png",
@@ -26,7 +27,6 @@
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.0c8a4c11.jpg",
     "static/media/gtu.png": "/static/media/gtu.3d9465c3.png",
     "static/media/hackathon1.svg": "/static/media/hackathon1.7a2dbf7a.svg",
-    "static/media/harikrushn.jpg": "/static/media/harikrushn.85891c5d.jpg",
     "static/media/iit.png": "/static/media/iit.36d7942a.png",
     "static/media/ino.png": "/static/media/ino.ccf88661.png",
     "static/media/localguide.gif": "/static/media/localguide.847873a8.gif",
@@ -46,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.de6673d8.js",
     "static/js/2.46c91863.chunk.js",
-    "static/css/main.d01bb312.chunk.css",
-    "static/js/main.3dd7186a.chunk.js"
+    "static/css/main.32ccf9ca.chunk.css",
+    "static/js/main.d0baedf9.chunk.js"
   ]
 }
