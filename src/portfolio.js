@@ -3,32 +3,33 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
+  googleTrackingID: "",
 };
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
-  title2: "Harikrushn",
-  logo_name: "harry.k()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
-  subTitle: "Backend Developer, Open Source Enthusiast 🔥. Always learning.",
+  title: "Xin chào 👋",
+  title2: "DT Dương Trần",
+  logo_name: "tranhamduong()",
+  nickname: "dt / tranhamduong",
+  full_name: "Trần Hàm Dương",
+  subTitle:
+    "Backend Developer, NLP Engineer 🔥. Driven by curiosity, fueled by code.",
   resumeLink:
-    "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
+    "https://drive.google.com/file/d/1C2IAXD4pbe037fUcKCcRXYmjJYZnoMRv/view?usp=sharing",
+  mail: "mailto:tranhamduong@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
-  // facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  github: "https://github.com/tranhamduong",
+  linkedin: "https://linkedin.com/in/tranhamduong/",
+  gmail: "tranhamduong@gmail.com",
+  // gitlab: "https://gitlab.com/harikanani",
+  facebook: "https://www.facebook.com/tranhamduong/",
+  // twitter: "https://twitter.com/Harikrushn9",
+  // instagram: "https://www.instagram.com/hari_kanani_/",
 };
 
 const skills = {
@@ -44,63 +45,63 @@ const skills = {
         "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
+        // {
+        //   skillName: "HTML5",
+        //   fontAwesomeClassname: "simple-icons:html5",
+        //   style: {
+        //     color: "#E34F26",
+        //   },
+        // },
+        // {
+        //   skillName: "CSS3",
+        //   fontAwesomeClassname: "fa-css3",
+        //   style: {
+        //     color: "#1572B6",
+        //   },
+        // },
+        // {
+        //   skillName: "JavaScript",
+        //   fontAwesomeClassname: "simple-icons:javascript",
+        //   style: {
+        //     backgroundColor: "#FFFFFF",
+        //     color: "#F7DF1E",
+        //   },
+        // },
+        // {
+        //   skillName: "PHP",
+        //   fontAwesomeClassname: "simple-icons:php",
+        //   style: {
+        //     color: "#7377AD",
+        //   },
+        // },
+        // {
+        //   skillName: "ReactJS",
+        //   fontAwesomeClassname: "simple-icons:react",
+        //   style: {
+        //     color: "#61DAFB",
+        //   },
+        // },
+        // {
+        //   skillName: "NodeJS",
+        //   fontAwesomeClassname: "simple-icons:node-dot-js",
+        //   style: {
+        //     color: "#339933",
+        //   },
+        // },
+        // {
+        //   skillName: "NPM",
+        //   fontAwesomeClassname: "simple-icons:npm",
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
+        // {
+        //   skillName: "MongoDB",
+        //   fontAwesomeClassname: "simple-icons:mongodb",
+        //   style: {
+        //     color: "#439743",
+        //   },
+        // },
         // {
         //   skillName: "GraphQL",
         //   fontAwesomeClassname: "simple-icons:graphql",
@@ -108,13 +109,13 @@ const skills = {
         //     color: "#DE33A6",
         //   },
         // },
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
+        // {
+        //   skillName: "Android",
+        //   fontAwesomeClassname: "simple-icons:android",
+        //   style: {
+        //     color: "#3DDC84",
+        //   },
+        // },
         {
           skillName: "Java",
           fontAwesomeClassname: "simple-icons:java",
@@ -122,27 +123,62 @@ const skills = {
             color: "#f89820",
           },
         },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
+        {
+          skillName: "Sprint Boot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "Apache Kafka",
+          fontAwesomeClassname: "simple-icons:apachekafka",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "Django",
+          fontAwesomeClassname: "simple-icons:django",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "HuggingFace",
+          fontAwesomeClassname: "simple-icons:huggingface",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "Flask",
+          fontAwesomeClassname: "simple-icons:flask",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "Fast API",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "GO",
+          fontAwesomeClassname: "simple-icons:go",
+          style: {
+            color: "#f89820",
+          },
+        },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -150,25 +186,18 @@ const skills = {
             color: "#4479A1",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
         {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
-            color: "#207297",
+            color: "#336791",
           },
         },
         {
-          skillName: "Apache",
-          fontAwesomeClassname: "simple-icons:apache",
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
           style: {
-            color: "#CA1A22",
+            color: "#336791",
           },
         },
         {
@@ -179,17 +208,10 @@ const skills = {
           },
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#E94E32",
-          },
-        },
-        {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
+            color: "#1488C6",
           },
         },
         {
@@ -202,7 +224,7 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -218,41 +240,6 @@ const skills = {
           },
         },
         {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
           skillName: "Docker",
           fontAwesomeClassname: "simple-icons:docker",
           style: {
@@ -260,10 +247,45 @@ const skills = {
           },
         },
         {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
+          skillName: "Nginx",
+          fontAwesomeClassname: "simple-icons:nginx",
           style: {
-            color: "#5b77ef",
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Kong",
+          fontAwesomeClassname: "simple-icons:kong",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Keycloak",
+          fontAwesomeClassname: "simple-icons:keycloak",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Grafana",
+          fontAwesomeClassname: "simple-icons:grafana",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Prometheus",
+          fontAwesomeClassname: "simple-icons:prometheus",
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "simple-icons:linux",
+          style: {
+            color: "#1488C6",
           },
         },
       ],
@@ -557,17 +579,17 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "contact-tranhamduong.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
-    avatar_image_path: "blogs_image.svg",
-  },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
+  //   link: "https://twitter.com/Harikrushn9",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
 };
 
 const projects = {
