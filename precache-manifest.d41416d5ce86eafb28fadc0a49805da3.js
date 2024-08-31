@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "169893d2aa42f3c70177bcdaf5e657fa",
+    "revision": "658da7483508c950dc4b95817e257a92",
     "url": "/index.html"
   },
   {
-    "revision": "74b2ff4b551068b0aad0",
-    "url": "/static/css/main.32ccf9ca.chunk.css"
+    "revision": "e0df72099bd932c195ba",
+    "url": "/static/css/main.7afc9081.chunk.css"
   },
   {
-    "revision": "19a7da84ee5bfdf8d5e0",
-    "url": "/static/js/2.46c91863.chunk.js"
+    "revision": "6f8bf4f55b9b30b3c49a",
+    "url": "/static/js/2.8be9d5e4.chunk.js"
   },
   {
     "revision": "c21d579849576bf6a47550572ff70f62",
-    "url": "/static/js/2.46c91863.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8be9d5e4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74b2ff4b551068b0aad0",
-    "url": "/static/js/main.d0baedf9.chunk.js"
+    "revision": "e0df72099bd932c195ba",
+    "url": "/static/js/main.2453116e.chunk.js"
   },
   {
     "revision": "008aefb0927de5ee9862",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "074c759bcddffa259a562604f23085a0",
-    "url": "/static/media/bauddhikgeeks-transparent.074c759b.png"
+    "revision": "25ede0a68143e8c852fd634ce70c16b3",
+    "url": "/static/media/aws.25ede0a6.png"
   },
   {
     "revision": "f2d490dc98d16b9d7939e8006d0debb7",
@@ -72,16 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contact-tranhamduong.8fc8c566.jpg"
   },
   {
-    "revision": "ec8e1b3c813a5cc0939965b7c56a03db",
-    "url": "/static/media/crest-1.ec8e1b3c.png"
+    "revision": "a3b26e4708373f6a58698828ccdc6d56",
+    "url": "/static/media/deeplearning.a3b26e47.png"
   },
   {
-    "revision": "404ae7bc061a03e399daa61344c78566",
-    "url": "/static/media/cwoc.404ae7bc.png"
-  },
-  {
-    "revision": "82473004d117a65c8ed30396c6299763",
-    "url": "/static/media/efi.82473004.png"
+    "revision": "09cb73e5af10e2a358f800c4ea328fea",
+    "url": "/static/media/deeplearning2.09cb73e5.png"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
@@ -144,8 +140,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fa-solid-900.c2801fb4.svg"
   },
   {
-    "revision": "54f6721948491acb1997fd43496cd7df",
-    "url": "/static/media/flutter.54f67219.png"
+    "revision": "bdb96fd3256e049e71ff9ad9a96c4720",
+    "url": "/static/media/fujinet.bdb96fd3.jpg"
   },
   {
     "revision": "6364dbb3a5b59c28566eac7e6aaacd04",
@@ -156,20 +152,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/github.0ba2aa20.png"
   },
   {
+    "revision": "3f5271725a5e2f4afdd904d661ff22a6",
+    "url": "/static/media/google.3f527172.png"
+  },
+  {
     "revision": "0c8a4c114ad00f7854e91550379b9b91",
     "url": "/static/media/googleAssistant.0c8a4c11.jpg"
   },
   {
-    "revision": "3d9465c3483dffb591b31f101699d0dc",
-    "url": "/static/media/gtu.3d9465c3.png"
+    "revision": "6134853ca868f72f11af11ed8bee685c",
+    "url": "/static/media/ibm.6134853c.png"
   },
   {
-    "revision": "7a2dbf7a2595600c00118eea8a7a52f8",
-    "url": "/static/media/hackathon1.7a2dbf7a.svg"
-  },
-  {
-    "revision": "36d7942a201d6e2b83b55876e8433ccf",
-    "url": "/static/media/iit.36d7942a.png"
+    "revision": "a0afca01829da2ed370804782e4d0f70",
+    "url": "/static/media/iig.a0afca01.png"
   },
   {
     "revision": "ccf886614a9c68f209d3e95c2626dd99",
@@ -184,47 +180,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/localguide.b7f903d7.png"
   },
   {
+    "revision": "292bdd94ff7fd48259974d3890d3ec8a",
+    "url": "/static/media/logo_uit.292bdd94.png"
+  },
+  {
     "revision": "bc5cfd3a887013976863247e66c389a2",
     "url": "/static/media/mlh-logo.bc5cfd3a.svg"
   },
   {
-    "revision": "53dd27a8801e3a4216b9c9e217dfc7d0",
-    "url": "/static/media/mlh.53dd27a8.png"
-  },
-  {
-    "revision": "d324ee17433678f2c32e57198b98c6db",
-    "url": "/static/media/mongo.d324ee17.png"
-  },
-  {
-    "revision": "5dcd18d03068fbd9edeeb5003b21998a",
-    "url": "/static/media/nightowls.5dcd18d0.jpg"
-  },
-  {
-    "revision": "22f11067f2d745aaceb51e485720635d",
-    "url": "/static/media/postman.22f11067.jpg"
-  },
-  {
-    "revision": "c108f55777ceaa6690606a207b737d0a",
-    "url": "/static/media/postman.c108f557.png"
+    "revision": "5bb5355371bb7a607a3e8db46809e24c",
+    "url": "/static/media/siu.5bb53553.jpg"
   },
   {
     "revision": "7b7a76ef55658f6999ce00c5d55f85a5",
     "url": "/static/media/skillenza.7b7a76ef.png"
   },
   {
-    "revision": "8901092d61bfd611f75368233b1774c6",
-    "url": "/static/media/ssec.8901092d.png"
+    "revision": "c280cce23ddf484a2836d40ca2a7995f",
+    "url": "/static/media/toeic.c280cce2.png"
   },
   {
-    "revision": "894ef0fc8dfe1c0ab658636b806049db",
-    "url": "/static/media/ssgandhy.894ef0fc.png"
+    "revision": "b0c6379bbbcf6d5c0b0a02a636d7a666",
+    "url": "/static/media/ucsandiego.b0c6379b.png"
   },
   {
-    "revision": "246ad3ede6a55b0102afa9871cfcbf21",
-    "url": "/static/media/valora.246ad3ed.jpg"
-  },
-  {
-    "revision": "02fdae4350ca45cabdc9c40cc11efc2a",
-    "url": "/static/media/wrighter.02fdae43.jpg"
+    "revision": "08e72da751d0cf44835bb16f58ef34fb",
+    "url": "/static/media/vccorp.08e72da7.jpg"
   }
 ]);
