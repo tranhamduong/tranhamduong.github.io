@@ -38,11 +38,11 @@ const skills = {
       title: "Backend Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "⚡ Design and implement robust backend architectures using Java Spring, Go, and modern frameworks.",
+        "⚡ Develop and optimize APIs to ensure seamless communication between services with a strong focus on performance and security.",
+        "⚡ Manage and maintain databases, ensuring efficient data storage and retrieval for high-traffic applications.",
+        "⚡ Deploy and manage backend services using Docker, ensuring consistency across environments.",
+        "⚡ Implement CI/CD pipelines to automate integration, and deployment processes, enhancing development efficiency and reliability.",
       ],
       softwareSkills: [
         {
@@ -156,9 +156,11 @@ const skills = {
       title: "Natural Language Processing",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Integrated recommendation engines into popular platforms, such as Kenh14 and Pega, enhancing the user experience for millions of active users.",
+        "⚡ Developed and deployed NLP models for tasks such, utilizing BERT, LLMs and other state-of-the-art machine learning techniques.",
+        "⚡ Integrated NLP-driven features, such as chatbots, into applications to enhance user interaction and automate customer support.",
+        "⚡ Designed and implemented pipelines for processing and analyzing large-scale text data from multiple sources, improving data-driven decision-making.",
+        "⚡ Optimized recommendation models using machine learning techniques to ensure high accuracy and performance under heavy traffic conditions.",
       ],
       softwareSkills: [
         {
@@ -223,9 +225,12 @@ const skills = {
       title: "Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ Managed and maintained server infrastructure, ensuring high performance, security, and scalability.",
+        "⚡ Configured and monitored servers, automating routine tasks to enhance efficiency and reduce downtime.",
+        "⚡ Integrated open-source tools to provide self-hosted solutions, enhancing flexibility and control for my team.",
+        ,
+        "⚡ Managed the configuration and maintenance of self-hosted systems, leveraging open-source technologies for cost-effective and scalable solutions.",
+        "⚡ Provided technical support and training for the team, ensuring smooth implementation and operation of self-hosted open-source solutions.",
       ],
       softwareSkills: [
         {
@@ -300,8 +305,10 @@ const degrees = {
         "The University of Information Technology, Vietnam National University, HCM City",
       duration: "2020 - 2022",
       descriptions: [
-        "⚡ I have studied core subjects like Machine Learning, Computer Vision, Advanced Web Development.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "⚡ Focused on Machine Learning, Deep Learning, and Big Data, with a specialization in Natural Language Processing (NLP).",
+        "⚡ Conducted extensive research in NLP, leading to the development of a thesis on spell-checking and error correction. ",
+        "⚡ Applied advanced techniques in Machine Learning and Deep Learning to address challenges in NLP, particularly in the area of automated error correction.",
+        "⚡ Engaged in multiple research projects stemming from the thesis work, contributing to the field of NLP and enhancing the accuracy of language processing systems.",
       ],
       website_link: "https://uit.edu.vn/",
     },
@@ -314,10 +321,9 @@ const degrees = {
         "The University of Information Technology, Vietnam National University, HCM City",
       duration: "2015 - 2020",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-        "⚡ I have secured 9.82 CGPA.",
+        "⚡ Studied core software engineering skills such as Object-Oriented Programming (OOP), Software Design Patterns, Algorithm Analysis, and Systems Design.",
+        "⚡  Completed multiple online courses focusing on Backend, Web, and Mobile App Development.",
+        "⚡ Worked on and implemented various projects throughout my studies, applying the knowledge gained from my Software Engineering coursework.",
       ],
       website_link: "https://uit.edu.vn/",
     },
@@ -415,7 +421,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "As a Node.js Backend Developer, I have worked with real projects for over two years. I've mostly done projects on my own. I love organizing workshops to share my knowledge with others.",
+    "My journey includes significant contributions to digital transformation projects, AI-driven solutions, and advanced research in Natural Language Processing (NLP). Whether managing complex infrastructures, leading software development teams, or guiding students in cutting-edge technologies, each role has honed my expertise and reinforced my commitment to innovation and excellence.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -429,7 +435,8 @@ const experience = {
           logo_path: "siuailab.jpg",
           duration: "Mar 2024 - Present",
           location: "HCM city, Vietnam",
-          description: `As an SDE intern, my priorities include learning opportunities and professional development. Aiming for Backend Development proficiency.`,
+          description:
+            "I manage and develop the infrastructure for the SIU AI Lab, and I also lead the software development team in executing digital transformation projects for the university. My responsibilities encompass the design, analysis, development, and deployment of software solutions.",
           color: "#0071C5",
         },
         {
@@ -440,13 +447,8 @@ const experience = {
           logo_path: "siu.jpg",
           duration: "Oct 2021 - Present",
           location: "HCM city, Vietnam",
-          description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
-          Focus on change request functions in close collaboration with the project manager and team leads.
-          Developed new and maintained existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          description:
+            "As a university lecturer at SIU, I taught specialized courses in software engineering and computer science, with a particular focus on Natural Language Processing (NLP). In addition to teaching, I actively engaged in research and guided students in scientific research projects, fostering their development and encouraging a deeper understanding of cutting-edge technologies.",
           color: "#0071C5",
         },
         {
@@ -456,11 +458,8 @@ const experience = {
           logo_path: "vccorp.jpg",
           duration: "Jul 2020 - Present",
           location: "HCM city, Vietnam",
-          description: `Focus on change request functions in close collaboration with the project manager and team leads.
-          Developed new and maintained existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
+          description:
+            "At VCCorp, I contributed to key AI-driven projects, including developing a chatbot with the RASA platform, creating an event detection system for Vietnamese news streams, and implementing text correction using BERT and machine learning techniques. I also played a vital role in building a personalized news recommendation system for millions of users on apps like Kenh14 and Pega, enhancing user engagement through tailored content.",
           color: "#0071C5",
         },
         {
@@ -471,11 +470,8 @@ const experience = {
           logo_path: "logo_uit.png",
           duration: "Late 2019 - Jul 2020",
           location: "HCM city, Vietnam",
-          description: `Focus on change request functions in close collaboration with the project manager and team leads.
-          Developed new and maintained existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
+          description:
+            "While serving as a teaching assistant at the University of Information Technology, I assisted in Object-Oriented Programming courses, helping students understand core concepts and improve their coding skills.",
           color: "#0071C5",
         },
         {
@@ -485,9 +481,8 @@ const experience = {
           logo_path: "vng.jpg",
           duration: "Feb 2019 - Apr 2019",
           location: "HCM city, Vietnam",
-          description: `Maintain close contact with the client and team when handling change requests.
-          LAMP Stack was mostly utilised. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
+          description:
+            "In my role as a recruiter, I specialized in identifying and attracting top talent in the technology sector, ensuring that the right skills and expertise were matched with the needs of the organization.",
           color: "#ee3c26",
         },
         {
@@ -497,9 +492,8 @@ const experience = {
           logo_path: "fujinet.jpg",
           duration: "Jul 2018 - Feb 2019",
           location: "HCM city, Vietnam",
-          description: `Maintain close contact with the client and team when handling change requests.
-          LAMP Stack was mostly utilised. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
+          description:
+            "At Fujinet, I worked on software development projects utilizing Java Servlet, Java Struts1, and Java Struts2, focusing on solutions tailored for the Japanese market.",
           color: "#ee3c26",
         },
       ],
@@ -508,25 +502,27 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Community Lead",
-          company: "Bauddhik-Geeks",
-          company_url: "https://bauddhikgeeks.tech/",
-          logo_path: "bauddhikgeeks.png",
-          duration: "Sep 2021 - Present",
-          location: "Work From Home",
+          title: "Team leader - The Green Summer Voluntary Campaign",
+          company:
+            "The University of Information Technology, Vietnam National University, HCM City",
+          company_url: "https://tuoitre.uit.edu.vn",
+          logo_path: "muahexanh.png",
+          duration: "May 2016 - Oct 2016",
+          location: "HCM city, Vietnam",
           description:
-            "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
+            "I served as the Team Leader of the Pioneer Team in the Green Summer Voluntary Campaign at the University of Information Technology. Leading a diverse group of 30 members, ranging from freshmen to seniors, we traveled across Saigon and Củ Chi to carry out various volunteer activities. Our initiatives included road construction, environmental improvement, visiting veterans' families, and hosting events aimed at spreading IT knowledge to the local communities.",
           color: "#FBBD18",
         },
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          title: "Member - The Spring Voluntary Campaign",
+          company:
+            "The University of Information Technology, Vietnam National University, HCM City",
+          company_url: "https://tuoitre.uit.edu.vn",
+          logo_path: "xuantinhnguyen.png",
+          duration: "Jan 2016 - Feb 2016",
+          location: "HCM city, Vietnam",
           description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+            "I was also a member of the Communication & Media Team and the Jam Making Team. Every day, alongside other members, I went to the university where we manually made jam, a traditional Vietnamese food enjoyed during Tết Holiday, using coconut and various fruits. As IT enthusiasts, making jam was quite a challenge for us, but it was a rewarding experience. Through our efforts, we produced around 300 to 400 bags of jam, which we then sold throughout downtown Saigon. The proceeds were used to buy gifts and make donations to the city's Children's Hospital 2 and the Phú Mỹ Hưng commune in Củ Chi district.",
           color: "#4285F4",
         },
         // {
@@ -541,60 +537,61 @@ const experience = {
         //   color: "#196acf",
         // },
         {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          title: "Chief Commander - UP Voluntary Campaign",
+          company:
+            "The University of Information Technology, The University of Economics and Law, Vietnam National University, HCM City",
+          company_url: "https://tuoitre.uit.edu.vn",
+          logo_path: "up.png",
+          duration: "Mar 2017",
+          location: "HCM city + Tay Ninh province, Vietnam",
           description:
-            "Google Developer Group Surat Student Volunteer and Member.",
+            "As the Chief Commander of the UP Voluntary Campaign, co-organized by the Faculty of Software Engineering at UIT and the Faculty of Business Administration at UEL, I led a campaign that attracted 200 volunteers from 16 universities, primarily from Vietnam National University. We conducted three programs: 'Warm UP' at Bình Triệu Center, caring for the elderly and veterans; 'Grow UP' at S.O.S Village, supporting orphans; and 'Light UP', aiding the homeless on the streets of Saigon. The campaign culminated in a four-day program called 'Hands UP' in Phước Vinh Commune, Tây Ninh province. Funds raised through our activities in Saigon allowed us to carry out meaningful work in the community, including constructing 3 km of street lighting, building 1 km of village roads, donating school supplies to 30 underprivileged students, organizing a mock trial to raise legal awareness, and cleaning the milestone between Vietnam and Cambodia, among other impactful activities.",
           color: "#D83B01",
         },
-        {
-          title: "Postman Student Expert",
-          company: "Postman",
-          company_url: "https://www.postman.com/",
-          logo_path: "postman.png",
-          duration: "Feb 2020 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
+        // {
+        //   title: "Postman Student Expert",
+        //   company: "Postman",
+        //   company_url: "https://www.postman.com/",
+        //   logo_path: "postman.png",
+        //   duration: "Feb 2020 - Present",
+        //   location: "Work From Home",
+        //   description:
+        //     "Google Developer Group Surat Student Volunteer and Member.",
+        //   color: "#D83B01",
+        // },
+        // {
+        //   title: "GitHub Student Developer",
+        //   company: "GitHub",
+        //   company_url: "https://github.com/",
+        //   logo_path: "github.png",
+        //   duration: "Nov 2019 - Present",
+        //   location: "Work from Home",
+        //   description:
+        //     "Contribute to Open Source Community and Open Source Project.",
+        //   color: "#040f26",
+        // },
+        // {
+        //   title: "Google Local Guide",
+        //   company: "Google Map",
+        //   company_url: "https://maps.google.com/localguides/",
+        //   logo_path: "localguide.png",
+        //   duration: "Sep 2018 - Present",
+        //   location: "Work From Home",
+        //   description:
+        //     "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+        //   color: "#D83B01",
+        // },
+        // {
+        //   title: "E. F. I. Student Volunteer",
+        //   company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
+        //   company_url: "https://indiaenvironment.org/",
+        //   logo_path: "efi.png",
+        //   duration: "Apr 2017 - Present",
+        //   location: "Work From Home",
+        //   description:
+        //     "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+        //   color: "#5a900f",
+        // },
       ],
     },
   ],
@@ -604,7 +601,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects leverage a variety of advanced technologies, including AI integration, data management, and web development. I've worked on initiatives such as building AI solutions, managing data infrastructure, and developing educational content. Below are some of my projects. Note that not all are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
