@@ -222,7 +222,7 @@ const skills = {
       ],
     },
     {
-      title: "Infra-Architecture",
+      title: "Infrastructure Management",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Managed and maintained server infrastructure, ensuring high performance, security, and scalability.",
