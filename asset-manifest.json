@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.7afc9081.chunk.css",
-    "main.js": "/static/js/main.2453116e.chunk.js",
-    "main.js.map": "/static/js/main.2453116e.chunk.js.map",
+    "main.js": "/static/js/main.101693c8.chunk.js",
+    "main.js.map": "/static/js/main.101693c8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.de6673d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.de6673d8.js.map",
-    "static/js/2.8be9d5e4.chunk.js": "/static/js/2.8be9d5e4.chunk.js",
-    "static/js/2.8be9d5e4.chunk.js.map": "/static/js/2.8be9d5e4.chunk.js.map",
+    "static/js/2.6cf9f86a.chunk.js": "/static/js/2.6cf9f86a.chunk.js",
+    "static/js/2.6cf9f86a.chunk.js.map": "/static/js/2.6cf9f86a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d41416d5ce86eafb28fadc0a49805da3.js": "/precache-manifest.d41416d5ce86eafb28fadc0a49805da3.js",
+    "precache-manifest.2b5a7e896ea2504f13f5d6f64ff75205.js": "/precache-manifest.2b5a7e896ea2504f13f5d6f64ff75205.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7afc9081.chunk.css.map": "/static/css/main.7afc9081.chunk.css.map",
-    "static/js/2.8be9d5e4.chunk.js.LICENSE.txt": "/static/js/2.8be9d5e4.chunk.js.LICENSE.txt",
+    "static/js/2.6cf9f86a.chunk.js.LICENSE.txt": "/static/js/2.6cf9f86a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/aws.png": "/static/media/aws.25ede0a6.png",
     "static/media/bauddhikgeeks.png": "/static/media/bauddhikgeeks.f2d490dc.png",
@@ -32,16 +32,19 @@
     "static/media/localguide.png": "/static/media/localguide.b7f903d7.png",
     "static/media/logo_uit.png": "/static/media/logo_uit.292bdd94.png",
     "static/media/mlh-logo.svg": "/static/media/mlh-logo.bc5cfd3a.svg",
+    "static/media/muahexanh.png": "/static/media/muahexanh.39fc09f3.png",
     "static/media/siu.jpg": "/static/media/siu.5bb53553.jpg",
     "static/media/skillenza.png": "/static/media/skillenza.7b7a76ef.png",
     "static/media/toeic.png": "/static/media/toeic.c280cce2.png",
     "static/media/ucsandiego.png": "/static/media/ucsandiego.b0c6379b.png",
-    "static/media/vccorp.jpg": "/static/media/vccorp.08e72da7.jpg"
+    "static/media/up.png": "/static/media/up.03f0951c.png",
+    "static/media/vccorp.jpg": "/static/media/vccorp.08e72da7.jpg",
+    "static/media/xuantinhnguyen.png": "/static/media/xuantinhnguyen.1c82d87a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.de6673d8.js",
-    "static/js/2.8be9d5e4.chunk.js",
+    "static/js/2.6cf9f86a.chunk.js",
     "static/css/main.7afc9081.chunk.css",
-    "static/js/main.2453116e.chunk.js"
+    "static/js/main.101693c8.chunk.js"
   ]
 }
