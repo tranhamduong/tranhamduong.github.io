@@ -133,6 +133,36 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
+            <li>
+              <div
+                className="interests"
+                style={{
+                  borderRadius: 5,
+                  color: theme.text,
+                  cursor: "pointer",
+                }}
+              >
+                My Interests
+                <div className="dropdown-content">
+                  <a
+                    href="https://tranhamduong.io.vn/books"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: theme.text }}
+                  >
+                    My Reading Journey
+                  </a>
+                  <a
+                    href="https://tranhamduong.io.vn/games"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: theme.text }}
+                  >
+                    Game I Played
+                  </a>
+                </div>
+              </div>
+            </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
