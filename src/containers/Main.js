@@ -6,7 +6,10 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Reading from "../pages/reading/Reading";
+import Games from "../pages/games/Games";
 import { settings } from "../portfolio.js";
+
 
 export default function Main(propss) {
   if (settings.isSplash) {
@@ -86,7 +89,28 @@ export default function Main(propss) {
                 />
               )}
             />
+            <Route
+              path="/reading"
+              render={(props) => (
+                <Reading
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/games"
+              render={(props) => (
+                <Games
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
           </Switch>
+
         </HashRouter>
       </div>
     );
@@ -157,7 +181,18 @@ export default function Main(propss) {
                 />
               )}
             />
+            <Route
+              path="/reading"
+              render={(props) => (
+                <Reading
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
           </Switch>
+
         </HashRouter>
       </div>
     );

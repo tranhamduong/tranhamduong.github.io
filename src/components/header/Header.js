@@ -25,9 +25,8 @@ function Header(props) {
     outline: "none",
     transition: "all 0.2s ease-in-out",
     ":hover": {
-      boxShadow: `0 3px 8px ${
-        props.theme.name === "light" ? "#F7D774" : "#646464"
-      }`,
+      boxShadow: `0 3px 8px ${props.theme.name === "light" ? "#F7D774" : "#646464"
+        }`,
     },
   });
 
@@ -144,32 +143,31 @@ function Header(props) {
               >
                 My Interests
                 <div className="dropdown-content">
-                  <a
-                    href="https://tranhamduong.io.vn/books"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <NavLink
+                    to="/reading"
+                    tag={Link}
                     style={{ color: theme.text }}
                   >
                     My Reading Journey
-                  </a>
-                  <a
-                    href="https://tranhamduong.io.vn/games"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  </NavLink>
+                  <NavLink
+                    to="/games"
+                    tag={Link}
                     style={{ color: theme.text }}
                   >
                     Game I Played
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </li>
+
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
           </ul>
         </header>
-      </div>
-    </Fade>
+      </div >
+    </Fade >
   );
 }
 

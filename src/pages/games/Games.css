@@ -1,0 +1,151 @@
+.games-main {
+    width: 100%;
+}
+
+.basic-games {
+    padding-top: 75px;
+    padding-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.games-heading-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
+}
+
+.games-heading-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.games-heading-text {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.games-header-detail-text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+/* Games Section */
+.games-section {
+    padding: 48px 0;
+}
+
+.games-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* Game Card */
+.game-card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.game-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+}
+
+/* Game Cover */
+.game-cover-container {
+    position: relative;
+    aspect-ratio: 616 / 353;
+    overflow: hidden;
+}
+
+.game-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.game-card:hover .game-cover {
+    transform: scale(1.05);
+}
+
+.game-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.3s ease;
+}
+
+.game-card:hover .game-overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Game Info */
+.game-info {
+    padding: 12px;
+    flex: 1;
+}
+
+.game-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Responsive Design */
+@media (min-width: 640px) {
+    .games-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .games-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .games-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .games-heading-div {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .games-heading-text {
+        font-size: 40px;
+    }
+
+    .games-header-detail-text {
+        font-size: 18px;
+    }
+
+    .games-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+}
