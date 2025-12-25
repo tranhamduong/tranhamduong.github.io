@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -13,6 +13,26 @@ const ContactData = contactPageData.contactSection;
 
 function Contact(props) {
   const theme = props.theme;
+  const [isUnlocked, setIsUnlocked] = useState(false);
+  const [sliderValue, setSliderValue] = useState(0);
+
+  const handleSliderChange = (e) => {
+    const val = parseInt(e.target.value);
+    setSliderValue(val);
+    if (val === 100) {
+      setIsUnlocked(true);
+    }
+  };
+
+  const handleSliderRelease = () => {
+    if (sliderValue < 100) {
+      setSliderValue(0);
+    }
+  };
+
+  const sliderStyle = {
+    "--accent-color": theme.accentColor || "#0055B7"
+  };
 
   const styles = style({
     backgroundColor: `${theme.accentBright}`,
@@ -50,9 +70,42 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
-              </a>
+              {!isUnlocked ? (
+                <div className="unlock-container" style={sliderStyle}>
+                  <div className="custom-slider-track">
+                    <div className="track-fill" style={{ width: `${sliderValue}%` }}></div>
+                    <div className="track-destination">📄</div>
+                    <div
+                      className="custom-thumb"
+                      style={{
+                        left: `calc(${sliderValue}% - 25px)`
+                      }}
+                    >
+                      ✈️
+                    </div>
+                    <div className="slide-text" style={{ opacity: Math.max(0, 1 - (sliderValue / 60)) }}>
+                      Slide to fly to CV
+                    </div>
+                  </div>
+
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value={sliderValue}
+                    className="unlock-slider-input"
+                    onChange={handleSliderChange}
+                    onTouchEnd={handleSliderRelease}
+                    onMouseUp={handleSliderRelease}
+                  />
+                </div>
+              ) : (
+                <div className="unlocked-btn-container">
+                  <a {...styles} className="general-btn" href={greeting.resumeLink} target="_blank" rel="noopener noreferrer">
+                    See my Resume
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         </Fade>

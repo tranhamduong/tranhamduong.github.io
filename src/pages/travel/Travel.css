@@ -1,0 +1,174 @@
+.travel-main {
+    width: 100%;
+}
+
+.basic-travel {
+    padding: 75px 45px;
+    padding-bottom: 0%;
+    width: 100%;
+}
+
+.travel-heading-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
+    width: 100% !important;
+}
+
+.travel-heading-text-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.travel-heading-text {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-family: 'Google Sans Regular', sans-serif;
+}
+
+.travel-header-detail-text {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Google Sans Regular', sans-serif;
+}
+
+.travel-maps-container {
+    padding: 48px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.map-section {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.map-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Google Sans Regular', sans-serif;
+}
+
+.map-separator {
+    height: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 40px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .basic-travel {
+        padding: 30px 20px;
+    }
+
+    .travel-heading-div {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .travel-heading-text {
+        font-size: 40px;
+    }
+
+    .travel-header-detail-text {
+        font-size: 18px;
+    }
+
+    .map-title {
+        font-size: 24px;
+    }
+}
+
+.vietnam-map-section {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Travel Stats */
+.travel-stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0 60px 0;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.stat-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.stat-percentage {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 10px 0;
+    font-family: 'Google Sans Bold', sans-serif;
+}
+
+.stat-subtitle {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 1.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (max-width: 768px) {
+    .travel-stats-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin: 30px 0;
+    }
+
+    .stat-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}

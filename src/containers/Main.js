@@ -8,13 +8,14 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import Reading from "../pages/reading/Reading";
 import Games from "../pages/games/Games";
+import Travel from "../pages/travel/Travel";
 import { settings } from "../portfolio.js";
 
 
 export default function Main(propss) {
   if (settings.isSplash) {
     return (
-      <div>
+      <div style={{ width: "100%" }}>
         <HashRouter basename="/">
           <Switch>
             <Route
@@ -29,9 +30,29 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/home"
               render={(props) => (
                 <Home
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -50,6 +71,16 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/education"
               render={(props) => (
                 <Education
@@ -60,9 +91,29 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/contact"
               render={(props) => (
                 <Contact
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -80,9 +131,29 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/projects"
               render={(props) => (
                 <Projects
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -100,9 +171,29 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/games"
               render={(props) => (
                 <Games
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -116,7 +207,7 @@ export default function Main(propss) {
     );
   } else {
     return (
-      <div>
+      <div style={{ width: "100%" }}>
         <HashRouter basename="/">
           <Switch>
             <Route
@@ -131,9 +222,29 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/home"
               render={(props) => (
                 <Home
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -152,9 +263,29 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/education"
               render={(props) => (
                 <Education
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}
@@ -172,6 +303,16 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/projects"
               render={(props) => (
                 <Projects
@@ -182,9 +323,29 @@ export default function Main(propss) {
               )}
             />
             <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
               path="/reading"
               render={(props) => (
                 <Reading
+                  {...props}
+                  theme={propss.theme}
+                  setTheme={propss.setTheme}
+                />
+              )}
+            />
+            <Route
+              path="/travel"
+              render={(props) => (
+                <Travel
                   {...props}
                   theme={propss.theme}
                   setTheme={propss.setTheme}

@@ -2820,6 +2820,190 @@ const gamesJourney = {
 
 
 
+// Travel Journey Page
+const travelJourney = {
+  title: "My Travels 🌍",
+  description: "Exploring the world, one place at a time. Here are the countries and places I've visited.",
+  worldMap: {
+    visited: [
+      {
+        id: "JP",
+        name: "Japan",
+        photos: ["/img/singapore1.jpg", "/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "TH",
+        name: "Thailand",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "SG",
+        name: "Singapore",
+        photos: ["/img/singapore1.jpg", "/img/singapore2.jpg", "/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "KR",
+        name: "South Korea",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "MY",
+        name: "Malaysia",
+        photos: ["/img/singapore1.jpg", "/img/singapore2.jpg"]
+      },
+      {
+        id: "NL",
+        name: "Netherlands",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "DE",
+        name: "Germany",
+        photos: ["/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "FR",
+        name: "France",
+        photos: ["/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "BE",
+        name: "Belgium",
+        photos: ["/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "LU",
+        name: "Luxembourg",
+        photos: ["/placeholder.svg?height=200&width=300"]
+      },
+      {
+        id: "VN",
+        name: "Vietnam",
+        photos: ["/placeholder.svg?height=200&width=300"]
+      }
+    ]
+  },
+  vietnamMap: {
+    visited: [
+      {
+        id: "01",
+        name: "Hà Nội",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "10",
+        name: "Tỉnh Lào Cai",
+        photos: ["/img/sapa1.jpg"],
+      },
+      {
+        id: "02",
+        name: "Tỉnh Hà Giang",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "04",
+        name: "Tỉnh Cao Bằng",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "08",
+        name: "Tỉnh Tuyên Quang",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "20",
+        name: "Tỉnh Lạng Sơn",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "22",
+        name: "Tỉnh Quảng Ninh",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "38",
+        name: "Tỉnh Thanh Hóa",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "40",
+        name: "Tỉnh Nghệ An",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "42",
+        name: "Tỉnh Hà Tĩnh",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "56",
+        name: "Tỉnh Khánh Hòa",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "68",
+        name: "Tỉnh Lâm Đồng",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "60",
+        name: "Tỉnh Bình Thuận",
+        photos: ["/img/muine1.jpg", "/img/muine2.jpg", "/img/muine3.jpg"],
+      },
+      {
+        id: "70",
+        name: "Tỉnh Bình Phước",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "75",
+        name: "Tỉnh Đồng Nai",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "74",
+        name: "Tỉnh Bình Dương",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "72",
+        name: "Tỉnh Tây Ninh",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "77",
+        name: "Tỉnh Bà Rịa - Vũng Tàu",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "79",
+        name: "Thành phố Hồ Chí Minh",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "80",
+        name: "Tỉnh Long An",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "82",
+        name: "Tỉnh Tiền Giang",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "92",
+        name: "Thành phố Cần Thơ",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      },
+      {
+        id: "83",
+        name: "Tỉnh Bến Tre",
+        photos: ["/placeholder.svg?height=200&width=300", "/placeholder.svg?height=200&width=300"],
+      }
+    ]
+  }
+};
+
 export {
   settings,
   greeting,
@@ -2832,6 +3016,7 @@ export {
   contactPageData,
   projects,
   readingJourney,
-  gamesJourney
+  gamesJourney,
+  travelJourney
 };
 

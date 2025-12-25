@@ -1,10 +1,12 @@
 /* header */
 
 .header {
+  position: relative;
   display: block;
   max-width: 90%;
   padding: 20px 10px;
   margin: -10px auto;
+  z-index: 10001;
 }
 
 .header ul {
@@ -200,16 +202,31 @@
 
 /* Dropdown styles */
 .dropdown-content {
-  display: none;
   position: fixed;
   background-color: rgba(30, 30, 30, 0.95);
   backdrop-filter: blur(10px);
-  min-width: 160px;
+  min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
-  z-index: 1;
-  border-radius: 5px;
-  margin-top: 5px;
+  z-index: 10000;
+  border-radius: 8px;
+  margin-top: 0;
+  padding: 8px 0;
   border: 1px solid rgba(255, 255, 255, 0.1);
+
+  /* Animation properties */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+  pointer-events: none;
+}
+
+/* Open state */
+.dropdown-content.dropdown-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .dropdown-content a {
@@ -219,16 +236,12 @@
   text-align: left;
   transition: all 0.2s ease;
   border-radius: 4px;
-  margin: 2px 4px;
+  margin: 2px 8px;
 }
 
 .dropdown-content a:hover {
   background-color: rgba(155, 89, 182, 0.3);
-  transform: translateX(3px);
-}
-
-.interests:hover .dropdown-content {
-  display: block;
+  transform: translateX(5px);
 }
 
 @media (min-width: 48em) {
