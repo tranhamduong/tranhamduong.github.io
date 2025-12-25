@@ -180,7 +180,9 @@ function Header(props) {
                     aria-label="My Interests submenu"
                     style={{
                       top: `${dropdownPosition.top}px`,
-                      left: `${dropdownPosition.left}px`
+                      left: `${dropdownPosition.left}px`,
+                      backgroundColor: props.theme.name === "light" ? "rgba(255, 255, 255, 0.95)" : "rgba(30, 30, 30, 0.95)",
+                      border: props.theme.name === "light" ? "1px solid rgba(0, 0, 0, 0.1)" : "1px solid rgba(255, 255, 255, 0.1)"
                     }}
                   >
                     <NavLink
